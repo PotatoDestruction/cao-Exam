@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../login/index.html">Login</a>
+        <a href="../groups/index.html">My Groups</a>
+    </nav>
+    
+    <header>
+        <div class="img-wrap">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        </div>
+        <div class="header-wrap">
+            <h2>
+                Potato Bill
+            </h2>
+            <p>
+                best in market
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <h2>Register</h2>
+        
+        <form>
+
+          
+            <label for="name">First Name</label>
+            <div>
+            <input type="text" name="name" id="name" placeholder="John" required>
+            </div>
+
+            <label for="lastName">Last Name</label>
+            <div>
+            <input type="text" name="lastName" id="lastName" placeholder="Doe" required>
+            </div>
+
+            <label for="email">Email</label>
+            <div>
+            <input type="email" name="email" id="email" placeholder="Potato@gmail.com" required>
+            </div>
+
+            <label for="password">Password</label>
+            <div>
+            <input type="password" name="password" id="password" placeholder="Enter your password..." required minlength="3" maxlength="20">
+            </div>
+
+            <label for="password2">Repeat Password</label>
+            <div>
+            <input type="password" name="password2" id="password2" placeholder="Repeat your password.." required minlength="3" maxlength="20">
+            </div>
+
+            <button type="submit">Register</button>
+            <span id="error"></span>
+
+            <div>
+            <a href="../login/index.html">Already have account?</a>
+            </div>
+
+        </form>
+    </main>
+
+    <script src="register.js"></script>
+</body>
+</html>

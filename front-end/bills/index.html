@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bills</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="bills.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../register/index.html">Register</a>
+        <a href="../login/index.html">Login</a>
+        <a href="../groups/index.html">My Groups</a>
+    </nav>
+    
+    <header>
+        <div class="img-wrap">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        </div>
+        <div class="header-wrap">
+            <h2>
+                Potato Bill
+            </h2>
+        </div>
+    </header>
+
+    <h2 class="bills-header">Group's bills:</h2>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr id="mainTr">
+                    <td>ID</td>
+                    <td>Description</td>
+                    <td>Amount</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div class="add-bill-form-container">
+    <form>
+
+    <h2>Add bill</h2>
+
+    <label for="amount">Amount:</label>
+    <input type="number" name="amount" id="amount" maxlength="7" required step="0.01"
+    oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+    <label for="description">Description:</label>
+    <input type="text" name="description" id="description" required>
+
+    <button type="submit">Add</button>
+
+    </form>
+    </div>
+
+
+    <script src="bills.js"></script>
+</body>
+</html>

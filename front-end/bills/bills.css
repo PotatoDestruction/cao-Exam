@@ -1,0 +1,39 @@
+.bills-header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.table-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+#mainTr {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background: #CCC
+}
+
+table thead tr td {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 15px;
+}
+
+.add-bill-form-container {
+    width: 450px;
+    margin: 100px auto 50px;
+}
+
+.add-bill-form-container form input {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,93 @@
+* {
+    font-family: sans-serif;
+}
+
+nav {
+    width: 1130px;
+    margin: 0 auto 100px;
+    background-color: rgb(166, 166, 214);
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color: blue;
+}
+
+nav a:hover {
+    color: red;
+}
+
+header {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-wrap p {
+    color: gray;
+    font-size: 23px;
+    font-variant: small-caps;
+    margin-top: 0px;
+}
+
+.header-wrap h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 500px;
+    margin: 50px auto;
+}
+
+form div {
+    margin-bottom: 12px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+form div a {
+    text-decoration: none;
+    color: green;
+    font-weight: 700;
+}
+
+form div a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px;
+    background: transparent;
+    font-weight: 700;
+    width: 8rem;
+}
+
+button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#error {
+    margin-left: 20px;
+    color: red;
+    font-weight: 700;
+}

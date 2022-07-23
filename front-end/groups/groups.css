@@ -1,0 +1,57 @@
+.selectGroupBox{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-container {
+    display: flex;
+    width: 1200px;
+    gap: 7px;
+    margin: 30px auto;
+    /* border: 1px dotted green; */
+    flex-wrap: wrap;
+}
+
+.group-box {
+    width: 190px;
+    height: 130px;
+    margin: 20px 20px;
+    border: 2px solid rgba(192, 186, 186, 0.3);
+    text-align: center;
+}
+
+.group-box:hover {
+    border-color: red;
+    cursor: pointer;
+}
+
+.group-box p {
+    color: gray;
+    font-weight: 700;
+}
+
+hr {
+    width: 1300px;
+}
+
+.group-form-box {
+    width: 1170px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.select-group {
+    width: 350px;
+}
+
+.select-group button {
+    width: 100px;
+}
+select {
+    padding: 10px;
+    border: 5px solid black;
+    margin-right: 30px;
+
+}
